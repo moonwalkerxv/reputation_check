@@ -1,5 +1,5 @@
 """
-Auther: Amol Pandhare
+Author: Amol Pandhare
 Email: pandhareamol96@gmail.com
 """
 
