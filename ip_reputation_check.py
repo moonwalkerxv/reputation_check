@@ -126,7 +126,7 @@ def get_virustotal_intel(http_response):
     for k,v in all_details.items():
         if v['category'] == 'malicious':
             engines += f'{k},'
-    engines =  engines.replace(',','')
+    engines =  engines.strip(',')
 
     date_ = '-'
     if 'last_modification_date' in data_dict['data'][0]['attributes']:
